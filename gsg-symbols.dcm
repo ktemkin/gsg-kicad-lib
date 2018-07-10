@@ -1,9 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 749010012A
+D 10/100Mbps ethernet magnetics
+$ENDCMP
+#
 $CMP 8P8CMAG
 D RJ connector with magnetics, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61
 K 8P8C RJ female connector magnetics
 F ~
+$ENDCMP
+#
+$CMP ASFL1
+D HCMOS Clock Oscillator
+K Crystal Clock Oscillator
+F http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf
 $ENDCMP
 #
 $CMP R-SHORTED
